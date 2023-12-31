@@ -1,0 +1,14 @@
+# Advent of Code 2023
+
+Completed the first 9 days before getting distracted with...work :)
+
+The problems were solved in the Scala 3 repl, and then translated to runnable files with minimal code golfing, just basic cleanup to make the code readable.
+
+Days 5 and 8 were probably the most challenging.
+
+Scala and its excellent collections library are, IMO, ideally suited to tackling these types of problems without relying on `var` and other mutable constructs.
+`foldLeft` was especially useful, along with `intersect`, `diff`, and standard `flatMap`/`map`. Regular expression support and the ability to pattern match on regexes was also quite helpful.
+
+In short, Scala rocks.
+
+
